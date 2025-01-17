@@ -58,7 +58,7 @@ export default {
 			<div class="sidebar-sticky ">
 				<div class="text-white text-center m-0 py-3 mb-3 btn-brand">
 					<h5 class="mb-0">
-						WGDashboard
+						ZTNA PGE
 					</h5>
 					<small class="ms-auto" v-if="getActiveCrossServer !== undefined">
 						<i class="bi bi-hdd-rack-fill me-2"></i>{{getActiveCrossServer.host}}
@@ -77,12 +77,6 @@ export default {
 							<i class="bi bi-gear me-2"></i>
 							<LocaleText t="Settings"></LocaleText>	
 						</RouterLink>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link rounded-3" role="button" @click="openHelpModal = true">
-							<i class="bi bi-question-circle me-2"></i>
-							<LocaleText t="Help"></LocaleText>
-						</a>
 					</li>
 				</ul>
 				<hr class="text-body">
